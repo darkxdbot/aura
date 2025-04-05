@@ -24,7 +24,7 @@ COOKIES_URL=getenv("COOKIES_URL" , "https://gist.githubusercontent.com/sparrow96
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = getenv("LOG_GROUP_ID", "Canushowup")
+LOG_GROUP_ID = getenv("LOG_GROUP_ID", "-1002306855979")
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "7587915806"))
